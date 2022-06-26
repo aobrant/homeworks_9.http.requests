@@ -104,7 +104,7 @@ if __name__ == '__main__':
 
     TOKEN = ""
     print(os.getcwd())
-    path = '/temp.txt'
+    path = '/test.txt'
     ya = YandexDisk(token=TOKEN)
     print("Текущая деректория:", os.getcwd())
     path_to_file = os.path.join(os.getcwd(),'test.txt')
